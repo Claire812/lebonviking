@@ -3,7 +3,7 @@
 
 }
 .nav{
-    border-bottom-color: black;
+    border-bottom-color: #272a2e;
     border-bottom: 5px;
 }
 
@@ -18,6 +18,11 @@
 .nav-link{
     color: black;
 }
+
+.logo{
+    position:relative;
+}
+
 .card-search{
     width:50%;
     display:flex;
@@ -30,7 +35,6 @@
 }
 
 .card-body-search{
-    background-color: hidden;
     opacity: 80%;
     display:flex;
     justify-content: center;
@@ -40,7 +44,7 @@
 }
 .btn-search{
     color: white;
-    background-color: black;
+    background-color: #272a2e;
     margin-left: 10px;
     border-radius: 10%;
 }
@@ -77,3 +81,20 @@ img.img-background{
 .text-uppercase{
     color:orangered;
 }
+.btn-marmite{
+    margin-left: 50%;
+    position:relative;
+    bottom:38em;
+    opacity: 50%;
+    background-color: black;
+    color:white;
+}
+.color-text{
+    color:whitesmoke;
+}
+.btn-orange{
+    background-color: #272a2e;
+    color:whitesmoke;
+}
+
+
