@@ -1,6 +1,8 @@
+
 .logo{
     width: 5%;
 }
+
 
 .navbar{
     background-color: white;
@@ -21,7 +23,7 @@
     justify-content: left;
 }
 .nav-link{
-    color: black;
+    color: #272a2e;
 }
 
 .logo{
@@ -111,6 +113,23 @@ ul, li{
 .btn-orange{
     background-color: #272a2e;
     color:whitesmoke;
+}
+.btn-machine{
+    bottom:52em;
+    position:relative;
+    left:7em;
+    opacity: 50%;
+    background-color: black;
+    color:white;
+}
+
+.btn-other{
+    position:relative;
+    right:48em;
+    bottom:52em;
+    opacity: 50%;
+    background-color: black;
+    color:white;
 }
 
 
