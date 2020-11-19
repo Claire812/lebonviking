@@ -1,0 +1,48 @@
+<button type="button" class="btn-marmite " data-toggle="modal" data-target="#cook">Cook article</button>
+{% for product in products %}
+
+<div class="modal fade bd-example-modal-lg" id="cook" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="container my-5 z-depth-1">
+
+
+            <!--Section: Content-->
+            <section class="color-text">
+
+                <div class="row pr-lg-5">
+                    <div class="col-md-7 mb-4">
+
+                        <div class="view">
+                            <img src="   {{ product.img }}" class="img-fluid" alt="{{product.name }}">
+                        </div>
+
+                    </div>
+                    <div class="col-md-5 d-flex align-items-center">
+                        <div>
+
+                            <h3 class="font-weight-bold mb-4">{{ product.name }}</h3>
+                            <h4> {{ product.price }}</h4>
+
+                            <p>{{product.description }}</p>
+
+                            <button type="button" class=" btn-orange btn-rounded mx-0">Buy</button>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            {% endfor %}
+
+            <!--Section: Content-->
+
+
+        </div>
+
+    </div>
+</div>
+
+
