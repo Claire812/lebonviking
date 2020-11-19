@@ -1,8 +1,14 @@
 
+.logo{
+    width: 5%;
+}
+
+
 .navbar{
     background-color: white;
 
 }
+
 .nav{
     border-bottom-color: #272a2e;
     border-bottom: 5px;
@@ -13,8 +19,8 @@
 }
 
 .collapse .navbar-nav  {
-
-    padding-left: 90em;
+    display:flex;
+    justify-content: left;
 }
 .nav-link{
     color: #272a2e;
@@ -50,7 +56,7 @@
     border-radius: 10%;
 }
 .form-control-search{
-    width:500px;
+    width:px;
     height: 34px;
     display: flex;
     justify-content: center;
@@ -82,6 +88,17 @@ img.img-background{
 .text-uppercase{
     color:orangered;
 }
+
+/* Css taille texte nav*/
+
+ul, li{
+    font-size: 20px;
+}
+
+.navbar-title {
+    font-size: 30px;
+}
+
 .btn-marmite{
     margin-left: 50%;
     position:relative;
@@ -114,5 +131,6 @@ img.img-background{
     background-color: black;
     color:white;
 }
+
 
 
