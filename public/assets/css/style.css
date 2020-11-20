@@ -16,6 +16,8 @@
 
 .title2{
     border-style: inset;
+    background-color: #272a2e;
+    color:whitesmoke;
 }
 
 .title-h2 {
@@ -29,7 +31,7 @@
 }
 
 .navbar{
-    background-color: white;
+    background-color: #272a2e;
 }
 
 .nav{
@@ -46,7 +48,10 @@
     justify-content: left;
 }
 .nav-link{
-    color: #272a2e;
+    color: whitesmoke;
+}
+.nav-link:hover{
+    color:#272a2e;
 }
 
 .logo{
