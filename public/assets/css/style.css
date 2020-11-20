@@ -3,13 +3,13 @@
     src: url('../font/viking(1)/Viking.ttf');
 }
 
-.bouclier1{
+.bouclier1, .bouclier2, .bouclier3 {
     float: left;
     width: 5em;
 
 }
 
-.bouclier2{
+.bouclier4, .bouclier5, .bouclier6{
     float: right;
     width: 5em;
 }
@@ -185,7 +185,19 @@ ul, li{
     border-color: whitesmoke;
 }
 
-.navbar-title,ul,li,p,h6,h2,h3,h4,button,input{
+.navbar-title, ul, li, p, h2, h3, h4, h5, h6, button, input, label, a, textarea {
     font-family: "Viking-eula";
 }
 
+.art-degrade, .navbar-title, .title-h2, h5, label, .form-control-file, .btn{
+    background: linear-gradient(to right, orange, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.nav-link:hover{
+    background: linear-gradient(to right, orange, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
