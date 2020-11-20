@@ -1,3 +1,9 @@
+@font-face {
+    font-family: "Viking-eula";
+    src: url('../font/viking(1)/Viking.ttf');
+}
+
+
 
 .logo{
     width: 5%;
@@ -131,3 +137,6 @@ ul, li{
     color:white;
 }
 
+.navbar-title,ul,li,p,h6,button,input{
+    font-family: "Viking-eula";
+}
