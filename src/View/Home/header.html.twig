@@ -18,7 +18,7 @@
                     <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Messages</a>
+                    <a href="#" class="nav-link" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">Add an article</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link " href="#">Connexion</a>
@@ -27,4 +27,45 @@
         </div>
     </nav>
 </header>
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Add an article</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form action="">
+                    <div class="form-group">
+                        <label for="recipient-name" class="col-form-label">Title:</label>
+                        <input type="text" class="form-control" id="recipient-name">
+                    </div>
+                    <div class="form-group">
+                        <label for="recipient-price" class="col-form-label">Price</label>
+                        <input type="text" class="form-control" id="recipient-price">
+                    </div>
+                    <div class="form-group">
+                        <label for="recipient-mail" class="col-form-label">Email</label>
+                        <input type="mail" class="form-control" id="recipient-mail" target="recipent-mail">
+                    </div>
+                    <div class="form-group">
+                        <label for="message-text" class="col-form-label">Content:</label>
+                        <textarea class="form-control" id="message-text"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlFile1">Add an image</label>
+                        <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-info btn-modal-close" data-dismiss="modal">Close</button>
+                        <a href="" class="btn btn-info btn-add" type="button">Send message</a>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
 
