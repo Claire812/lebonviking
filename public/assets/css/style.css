@@ -27,39 +27,33 @@
 .logo{
     position:relative;
 }
+.title-h2{
+    display: flex;
+    justify-content: center;
+}
 
 .card-search{
     width:50%;
-    display:flex;
     justify-content: center;
-    margin-left:25em;
     text-align: center;
     flex-direction: column;
-    position:relative;
-    top:8em;
+
 }
 
 .card-body-search{
     opacity: 80%;
-    display:flex;
-    justify-content: center;
     padding-top: 1.5em;
+}
 
 
-}
-.btn-search{
-    color: white;
-    background-color: #272a2e;
-    margin-left: 10px;
-    border-radius: 10%;
-}
+
 .form-control-search{
     width:500px;
     height: 34px;
     display: flex;
     justify-content: center;
     text-align: center;
-    margin-left: 210px;
+    margin-left: 380px;
 }
 img.img-background{
     display: flex;
