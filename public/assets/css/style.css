@@ -3,6 +3,25 @@
     src: url('../font/viking(1)/Viking.ttf');
 }
 
+.bouclier1{
+    float: left;
+    width: 5em;
+
+}
+
+.bouclier2{
+    float: right;
+    width: 5em;
+}
+
+.title2{
+    border-style: inset;
+}
+
+.title-h2 {
+    line-height: 3;
+    margin-top: 8px;
+}
 
 
 .logo{
@@ -59,7 +78,7 @@
     display: flex;
     justify-content: center;
     text-align: center;
-    margin-left: 380px;
+    margin: auto;
 }
 img.img-background{
     display: flex;
@@ -131,6 +150,7 @@ ul, li{
     color:white;
 }
 
-.navbar-title,ul,li,p,h6,button,input{
+.navbar-title,ul,li,p,h6,h2,h3,h4,button,input{
     font-family: "Viking-eula";
 }
+
