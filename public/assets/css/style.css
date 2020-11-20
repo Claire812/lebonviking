@@ -61,6 +61,11 @@
     text-align: center;
     margin-left: 380px;
 }
+.modal-content{
+    background-color: #272a2e;
+    color: whitesmoke;
+    opacity: 70%;
+}
 img.img-background{
     display: flex;
     flex:1;
@@ -129,6 +134,31 @@ ul, li{
     opacity: 50%;
     background-color: black;
     color:white;
+}
+.btn-modal-close{
+    background-color: #272a2e;
+    color:whitesmoke;
+    opacity: 50%;
+    border-color: whitesmoke;
+}
+.btn-modal-close:hover{
+    text-decoration: none;
+    color: whitesmoke;
+    background-color: #272a2e;
+    border-color: whitesmoke;
+}
+.btn-add{
+    background-color: #272a2e;
+    color:whitesmoke;
+    opacity: 50%;
+    border-color: whitesmoke;!important;
+
+}
+.btn-add:hover{
+    text-decoration: none;
+    color: whitesmoke;
+    background-color: #272a2e;
+    border-color: whitesmoke;
 }
 
 .navbar-title,ul,li,p,h6,button,input{
