@@ -162,7 +162,7 @@ ul, li{
 .btn-modal-close{
     background-color: #272a2e;
     color:whitesmoke;
-    opacity: 50%;
+    opacity: 90%;
     border-color: whitesmoke;
 }
 .btn-modal-close:hover{
@@ -174,7 +174,7 @@ ul, li{
 .btn-add{
     background-color: #272a2e;
     color:whitesmoke;
-    opacity: 50%;
+    opacity: 90%;
     border-color: whitesmoke;!important;
 
 }
