@@ -1,5 +1,4 @@
 <button type="button" class="btn-marmite " data-toggle="modal" data-target="#cook">Cook article</button>
-{% for product in products %}
 
 <div class="modal fade bd-example-modal-lg" id="cook" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">
@@ -13,17 +12,70 @@
                     <div class="col-md-7 mb-4">
 
                         <div class="view">
-                            <img src="   {{ product.img }}" class="img-fluid" alt="{{product.name }}">
+                            <img src="/assets/images/thermomix.jpg" class="img-fluid" alt="thermomix-img">
                         </div>
 
                     </div>
                     <div class="col-md-5 d-flex align-items-center">
                         <div>
 
-                            <h3 class="font-weight-bold mb-4">{{ product.name }}</h3>
-                            <h4> {{ product.price }}</h4>
+                            <h3 class="font-weight-bold mb-4">Thermomix</h3>
+                            <h4>Price: 4cows, 5 rabbit, 1 sword</h4>
 
-                            <p>{{product.description }}</p>
+                            <p>Robot for cooking stolen in Palestine 5 days ago perfect condition, just used to make a good big fish.</p>
+
+                            <button type="button" class=" btn-orange btn-rounded mx-0">Buy</button>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </section>
+            <section class="color-text">
+
+                <div class="row pr-lg-5">
+                    <div class="col-md-7 mb-4">
+
+                        <div class="view">
+                            <img src="/assets/images/plaque.jpg" class="img-fluid" alt="induction-img">
+                        </div>
+
+                    </div>
+                    <div class="col-md-5 d-flex align-items-center">
+                        <div>
+
+                            <h3 class="font-weight-bold mb-4">Induction hob</h3>
+                            <h4>Price: your wife</h4>
+
+                            <p>Stolen in island. A table to replace the fire and cook food without the need to start a fire.</p>
+
+                            <button type="button" class=" btn-orange btn-rounded mx-0">Buy</button>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </section>
+            </section>
+            <section class="color-text">
+
+                <div class="row pr-lg-5">
+                    <div class="col-md-7 mb-4">
+
+                        <div class="view">
+                            <img src="/assets/images/allumettes.jpg" class="img-fluid" alt="matches-img">
+                        </div>
+
+                    </div>
+                    <div class="col-md-5 d-flex align-items-center">
+                        <div>
+
+                            <h3 class="font-weight-bold mb-4">Matches</h3>
+                            <h4>Price: 6 mouses</h4>
+
+                            <p>Stolen in new-zealand. If you have the knack in one go start your fire. There are only 10 shots left.</p>
 
                             <button type="button" class=" btn-orange btn-rounded mx-0">Buy</button>
 
@@ -35,7 +87,6 @@
             </section>
 
 
-            {% endfor %}
 
             <!--Section: Content-->
 
